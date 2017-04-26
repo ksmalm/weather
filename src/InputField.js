@@ -6,7 +6,7 @@ export default class InputField extends Component {
     <form>
     <input
       type="text"
-      placeholder="Type something"
+      placeholder="Search city"
       onChange={this.props.handleInput}
      />
      <input
