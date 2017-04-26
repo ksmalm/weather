@@ -24,7 +24,7 @@ class App extends Component {
 
   handleSubmit(e) {
     e.preventDefault()
-    axios.get('http://api.apixu.com/v1/current.json?key=791351f004e04867990230211172404&q=' + this.state.filtertext)
+    axios.get('https://api.apixu.com/v1/current.json?key=791351f004e04867990230211172404&q=' + this.state.filtertext)
       .then(res => {
         console.log(res.data)
         this.setState({
